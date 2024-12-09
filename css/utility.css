@@ -1,6 +1,9 @@
 .border{
     border: 2px solid black;
 }
+.margin{
+    margin: 5px;
+}
 .flex{
     display: flex;
 }
