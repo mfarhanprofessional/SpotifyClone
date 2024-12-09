@@ -1,3 +1,15 @@
 body{
     background-color: red;
 }
+.sidebar{
+    display: flex;
+    gap: 5px;
+}
+.left-sidebar{
+    width: 30vw;
+    color: white;
+}
+.right-sidebar{
+    width: 70vw;
+    color: white;
+}
