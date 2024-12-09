@@ -1,5 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: red;
+    background-color: black;
 }
 .sidebar{
     display: flex;
@@ -9,7 +13,17 @@ body{
     width: 30vw;
     color: white;
 }
+
+.home > ul li{
+    width: 100px;
+}
 .right-sidebar{
     width: 70vw;
     color: white;
+}
+.svg{
+    width: 20px;
+}
+ul{
+    list-style: none;
 }

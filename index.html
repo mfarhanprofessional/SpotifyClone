@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utility.css">
     <title>Spotify</title>
 </head>
 <body>
     <div class="sidebar">
-    <div class="left-sidebar border">
-        <div class="home margin border">home</div>
-        <div class="library margin border">library</div>
+    <div class="left-sidebar">
+        <div class="home bg-gray border rounded p-5">
+            <div><img class="invert" src="assets/img/logo.svg" alt=""></div>
+            <ul>
+                <li class="my-3 flex gap-1"><img class="svg invert" src="assets/img/home.svg" alt="home">Home</li>
+                <li class="flex gap-1"><img class="svg invert" src="assets/img/search.svg" alt="">Search</li>
+            </ul>
+    </div>
+
+        <div class="library m-1 bg-gray border rounded p-5">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center gap-1">
+                <img class="svg invert" src="assets/img/library.svg" alt="">
+                <div>Your Library</div>
+            </div>
+            <div><i class="fa-solid fa-minus"></i></div>
+            </div>
+        </div>
     </div>
     <div class="right-sidebar border">right</div>
 </div>
