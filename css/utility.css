@@ -50,3 +50,7 @@
 .invert{
     filter: invert(1);
 }
+a{
+    color: white;
+    text-decoration: none;
+}
