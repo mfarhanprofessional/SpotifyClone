@@ -11,8 +11,20 @@
 .m-1{
     margin: 5px;
 }
+.mb-1{
+    margin-bottom: 5px;
+}
+.mb-2{
+    margin-bottom: 10px;
+}
+.p-4{
+    padding: 20px;
+}
 .p-5{
     padding: 25px;
+}
+.my-2{
+    margin: 10px 0;
 }
 .my-3{
     margin: 15px 0;
@@ -31,6 +43,9 @@
 }
 .bg-gray{
     background-color: #121212;
+}
+.bg-white{
+    background-color: #fff;
 }
 .invert{
     filter: invert(1);

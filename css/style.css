@@ -17,13 +17,28 @@ body{
 .home > ul li{
     width: 100px;
 }
-.right-sidebar{
-    width: 70vw;
-    color: white;
-}
+
 .svg{
     width: 20px;
 }
 ul{
     list-style: none;
+}
+.box{
+    background-color: #2b2929;
+}
+.library{
+    height: 73vh;
+}
+.library  button{
+        padding: 4px 12px;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 28px;
+        border: 2px solid #fff;
+}
+
+.right-sidebar{
+    width: 70vw;
+    color: white;
 }
