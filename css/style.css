@@ -55,3 +55,8 @@ ul{
     width: 70vw;
     color: white;
 }
+.rNavbar{
+    background-color: #2b2929;
+    width: 100vw;
+    height: 15vh;
+}
