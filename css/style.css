@@ -98,15 +98,15 @@ button{
     height: 60vh;
     overflow: auto;
 }
-.cardContainer ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 10px; /* Adjust scrollbar width */
 }
 
-.cardContainer ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #333; /* Track background color */
 }
 
-.cardContainer ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: #1f1f1f; /* Scrollbar thumb color */
     border-radius: 5px; /* Round the corners */
     border: 2px solid #333; /* Add contrast for the thumb */
@@ -119,6 +119,7 @@ button{
     padding: 10px;
     background-color: #1f1f1f;
     border-radius: 10px;
+    height: 50%;
 }
 .card > h2{
     font-size: 1.2rem;
@@ -127,33 +128,27 @@ button{
 .card >p{
     font-size: 14px;
 }
+.card :nth-child(1){
+    position: relative;
+}
 /* Image styles */
 .card img {
     border-radius: 10px;
     padding-top: 5px;
     width: 100%;
     object-fit: cover; /* Make sure the image covers the space without distortion */
+    
 }
 .card svg{
     position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(94%, 0%);
-    z-index: 1;
-    width: 45px;
-    display: none;
+    top: 34%;
+    right: 1%;
+    width: 30px;
+    cursor: pointer;
 }
 
-/* SVG Button */
-.card svg :hover {
-    position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(94%, 0%);
-    z-index: 1;
-    width: 45px;
-    display: block;
-}
+
+
 
 .rfooter{
     background-color: #121212;
